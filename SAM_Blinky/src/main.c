@@ -33,12 +33,6 @@ int main (void)
     while(true);
   }
   
-  //if(pwmch0_init() != 0)
-  //{
-    //error_blink(1);
-    //while(true);
-  //}
-  
 	while(true)
 	{
     if(state_changed)
@@ -50,14 +44,6 @@ int main (void)
     }
   }  
 }
-
-//void simple_led_statemachine(uint8_t state)
-//{
-  //switch(state)
-  //{
-    //case
-  //}
-//}
 
 void led_statemachine(uint8_t state)
 {
