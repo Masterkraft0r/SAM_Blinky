@@ -1,3 +1,17 @@
+# Binary files
+*.o
+*.elf
+*.hex
+*.bin
+.atsuo
+*.eep
+*.lss
+*.map
+*.srec
+*.pdf
+log.*
+*.log
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
